@@ -19,7 +19,7 @@ program7.py - median_fits (calculates median of a set of images, runtime, and th
 
 program8.py - median_approx (implementation of binapprox algorithm to calculate the median of a list of numbers)
 
-program9.py - median_approx_fits (estimate the median of each pixel from a set of FITS files)
+program9.py - median_approx_fits (estimate the median of each pixel from a set of FITS files, uses helper.py)
 
 *Crossmatching two catalogues
 
@@ -91,4 +91,4 @@ program28.py
              - dtc_predict_actual (perform held-out validation and return the predicted and actual classes, i.e. galaxy shapes, from a decision tree classifier)
              
 program29.py - rf_predict_actual (returns predicted and actual classes for galaxies using random forest 10-fold cross-validation,
-               specifying the number of decision trees in the forest; also returns the accuracy and a confusion matrix)
+               specifying the number of decision trees in the forest; also returns the accuracy and a confusion matrix from support_functions.py)
